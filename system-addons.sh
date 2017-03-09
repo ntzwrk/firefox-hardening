@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 SYSTEM_ADDONS_DIR="/usr/lib/firefox/browser/features"
 SYSTEM_ADDONS="firefox@getpocket.com.xpi webcompat@mozilla.org.xpi aushelper@mozilla.org.xpi"
