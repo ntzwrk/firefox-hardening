@@ -1,1 +1,1 @@
-# firefox-hardened-configs
+# firefox-hardening
