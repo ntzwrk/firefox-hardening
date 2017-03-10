@@ -119,6 +119,10 @@ pref("security.ssl3.ecdh_rsa_rc4_128_sha",			false);
 pref("security.ssl3.ecdhe_ecdsa_rc4_128_sha",			false);
 pref("security.ssl3.ecdhe_rsa_rc4_128_sha",			false);
 
+// disable 1024-bit dh primes
+pref("security.ssl3.dhe_rsa_aes_128_sha",				false);
+pref("security.ssl3.dhe_rsa_aes_256_sha",				false);
+
 // RC4 fallback
 pref("security.tls.unrestricted_rc4_fallback",			false);
 
@@ -300,9 +304,6 @@ pref("clipboard.autocopy",								false);
 // disable cookies from 3rd parties
 pref("network.cookie.cookieBehavior",					1);
 pref("signon.rememberSignons",							false);
-// disable 1024-bit dh primes
-pref("security.ssl3.dhe_rsa_aes_128_sha",				false);
-pref("security.ssl3.dhe_rsa_aes_256_sha",				false);
 // enable Do Not Track
 pref("privacy.donottrackheader.enabled",				true);
 // enable tracking protection
