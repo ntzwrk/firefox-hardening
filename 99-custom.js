@@ -108,23 +108,121 @@ pref("security.tls.unrestricted_rc4_fallback",			false);
 
 
 
+/***************
+ * HTML5 / DOM *
+ ***************/
 
-// disable geolocation
-pref("geo.enabled",										false);
+// Gamepad
+pref("dom.gamepad.enabled",					false);
+
+// Virtual reality
+pref("dom.vr.enabled",						false);
+pref("dom.vr.oculus.enabled",					false);
+pref("dom.vr.openvr.enabled",					false);
+pref("dom.vr.osvr.enabled",					false);
+
+// Battery
+pref("dom.battery.enabled",					false);
+
+// Network information
+pref("dom.netinfo.enabled",					false);
+
+// Timing
+pref("dom.enable_performance",					false);
+
+// User timing
+pref("dom.enable_user_timing",					false);
+
+// Telephony
+pref("dom.telephony.enabled",					false);
+
+// Raw TCP socket
+pref("dom.mozTCPSocket.enabled",				false);
+
+// WebRTC
+pref("media.peerconnection.enabled",				false);
+
+// Hide internal IP
+pref("media.peerconnection.ice.default_address_only",		true);
+pref("media.peerconnection.ice.no_host",			true);
+
+// Speech synthesis
+pref("media.webspeech.synth.enabled",				false);
+
+// Speech recognition
+pref("media.webspeech.recognition.enable",			false);
+
+// Beacons
+pref("beacon.enabled",						false);
+
+
+
+/***********
+ * Caching *
+ ***********/
+
+// Clean on shutdown
+pref("privacy.sanitize.sanitizeOnShutdown",			true);
+
+// Clean areas
+pref("privacy.clearOnShutdown.cache",				false);
+pref("privacy.clearOnShutdown.cookies",				true);
+pref("privacy.clearOnShutdown.downloads",			false);
+pref("privacy.clearOnShutdown.formdata",			false);
+pref("privacy.clearOnShutdown.history",				false);
+pref("privacy.clearOnShutdown.offlineApps",			false);
+pref("privacy.clearOnShutdown.passwords",			false);
+pref("privacy.clearOnShutdown.sessions",			false);
+pref("privacy.clearOnShutdown.siteSettings",			false);
+
+// Private browsing mode
+pref("browser.privatebrowsing.autostart",			false);
+
+// Offline cache
+pref("browser.cache.offline.enable",				false);
+
+// Disk cache
+pref("browser.cache.disk.enable",				true);
+
+// Memory cache
+pref("browser.cache.memory.enable",				false);
+
+// Form autofill
+pref("browser.formfill.enable",					false);
+
+// Extra session data
+pref("browser.sessionstore.privacy_level",			0);
+
+// History
+pref("places.history.enabled",					true);
+
+// Cookie lifetime
+pref("network.cookie.lifetimePolicy",				2);
+
+
+
+/*****************
+ * Miscellaneous *
+ *****************/
+
+// Face detection
 pref("camera.control.face_detection.enabled",			false);
-pref("dom.gamepad.enabled",								false);
-pref("dom.vr.enabled",									false);
-pref("device.sensors.enabled",							false);
-// disable battery api
-pref("dom.battery.enabled",								false);
-pref("media.peerconnection.enabled",					false);
+
+// Reading sensors
+pref("device.sensors.enabled",					false);
+
+// Geo location
+pref("geo.enabled",						false);
+pref("geo.wifi.url",						"localhost");
+
+
+
+
 pref("browser.send_pings",								false);
 pref("browser.send_pings.require_same_host",			true);
 pref("clipboard.autocopy",								false);
 // disable cookies from 3rd parties
 pref("network.cookie.cookieBehavior",					1);
-// keep cookies until Firefox is closed
-pref("network.cookie.lifetimePolicy",					2);
 pref("signon.rememberSignons",							false);
 // disable 1024-bit dh primes
 pref("security.ssl3.dhe_rsa_aes_128_sha",				false);
@@ -142,15 +240,10 @@ pref("network.dns.disablePrefetch",						true);
 pref("layout.css.visited_links_enabled",				false);
 // try resolving DNS over SOCKS proxies (needed for Tor)
 pref("network.proxy.socks_remote_dns",					true);
-// use `localhost` as URL for WiFi locating
-pref("geo.wifi.url",									"localhost");
 // disable search suggestions
 pref("browser.search.suggest.enabled",					false);
 // do not embed the `missing flash player` frame
 pref("plugins.notifyMissingFlash",						false);
-// disable WebRTC
-pref("media.peerconnection.ice.default_address_only",	true);
-pref("media.peerconnection.enabled",					false);
 // set the useragent to the same one used by the Tor browser
 pref("general.useragent.override",						"Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0");
 // set the platform to the same one used by the Tor browser
