@@ -3,9 +3,17 @@
  **********************/
 
 // Health reports
-pref("datareporting.healthreport.uploadEnabled",                false);
-pref("datareporting.healthreport.service.enabled",              false);
+pref("datareporting.healthreport.uploadEnabled",		false);
+pref("datareporting.healthreport.service.enabled",		false);
 pref("datareporting.policy.dataSubmissionEnabled",		false);
+
+// Telemetry
+pref("toolkit.telemetry.enabled",				false);
+pref("toolkit.telemetry.unified",				false);
+
+// Telemetry experiments
+pref("experiments.supported",					false);
+pref("experiments.enabled",					false);
 
 // Pocket
 pref("extensions.pocket.enabled",				false);
@@ -23,6 +31,41 @@ pref("browser.safebrowsing.downloads.enabled",			false);
 
 // Heartbeat
 pref("browser.selfsupport.url",					"");
+
+// WebIDE
+pref("devtools.webide.enabled",					false);
+pref("devtools.webide.autoinstallADBHelper",			false);
+pref("devtools.webide.autoinstallFxdtAdapters",			false);
+
+// Remote debugging
+pref("devtools.debugger.remote-enabled",			false);
+
+
+
+/**************
+ * Extensions *
+ **************/
+
+// Extension updates
+pref("extensions.update.enabled",				true);
+
+// Extension block list
+pref("extensions.blocklist.enabled",				true);
+
+// Extension metadata update
+pref("extensions.getAddons.cache.enabled",			false);
+
+// Click to play
+pref("plugins.click_to_play",					true);
+
+// Flash
+pref("plugin.state.flash",					0);
+
+// Java
+pref("plugin.state.java",					0);
+
+// Gnome Shell integration
+pref("plugin.state.libgnome-shell-browser-plugin",		0);
 
 
 
@@ -86,8 +129,6 @@ pref("signon.rememberSignons",							false);
 // disable 1024-bit dh primes
 pref("security.ssl3.dhe_rsa_aes_128_sha",				false);
 pref("security.ssl3.dhe_rsa_aes_256_sha",				false);
-// disable telemetry
-pref("toolkit.telemetry.enabled",						false);
 // enable Do Not Track
 pref("privacy.donottrackheader.enabled",				true);
 // disable WebGL
