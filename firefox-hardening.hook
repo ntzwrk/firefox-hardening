@@ -5,6 +5,6 @@ Type = Package
 Target = firefox
 
 [Action]
-Description = Removing unnecessary Firefox addons
+Description = Applying Firefox hardening stuff
 When = PostTransaction
-Exec = /usr/lib/firefox-hardening/remove-addons.sh
+Exec = /usr/lib/firefox-hardening/beatthedeviloutofit.sh
