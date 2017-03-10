@@ -6,14 +6,21 @@
 pref("datareporting.healthreport.uploadEnabled",		false);
 pref("datareporting.healthreport.service.enabled",		false);
 pref("datareporting.policy.dataSubmissionEnabled",		false);
+pref("datareporting.healthreport.about.reportUrl",		"");
 
 // Telemetry
 pref("toolkit.telemetry.enabled",				false);
 pref("toolkit.telemetry.unified",				false);
 
+//
+pref("toolkit.telemetry.server",				"");
+
 // Telemetry experiments
 pref("experiments.supported",					false);
 pref("experiments.enabled",					false);
+
+//
+pref("experiments.manifest.uri",				"");
 
 // Pocket
 pref("extensions.pocket.enabled",				false);
@@ -86,8 +93,17 @@ pref("security.OCSP.enabled",					1);
 // OCSP stapling
 pref("security.ssl.enable_ocsp_stapling",			true);
 
+//
+pref("security.cert_pinning.enforcement_level",			2);
+
 // SSL error reporting
+pref("security.ssl.errorReporting.enabled",			false);
+
+//
 pref("security.ssl.errorReporting.automatic",			false);
+
+//
+pref("security.ssl.errorReporting.url",				"");
 
 
 
@@ -112,8 +128,14 @@ pref("security.tls.unrestricted_rc4_fallback",			false);
  * HTML5 / DOM *
  ***************/
 
+//
+pref("dom.indexedDB.enabled",					false);
+
 // Gamepad
 pref("dom.gamepad.enabled",					false);
+
+// Vibrator
+pref("dom.vibrator.enabled",					false);
 
 // Virtual reality
 pref("dom.vr.enabled",						false);
@@ -142,9 +164,24 @@ pref("dom.mozTCPSocket.enabled",				false);
 // WebRTC
 pref("media.peerconnection.enabled",				false);
 
+//
+pref("media.peerconnection.turn.disable",			true);
+
 // Hide internal IP
 pref("media.peerconnection.ice.default_address_only",		true);
 pref("media.peerconnection.ice.no_host",			true);
+
+//
+pref("media.getusermedia.screensharing.enabled",		false);
+
+//
+pref("media.getusermedia.audiocapture.enabled",			false);
+
+//
+pref("media.getusermedia.browser.enabled",			false);
+
+//
+pref("media.peerconnection.video.enabled",			false);
 
 // Speech synthesis
 pref("media.webspeech.synth.enabled",				false);
@@ -152,8 +189,21 @@ pref("media.webspeech.synth.enabled",				false);
 // Speech recognition
 pref("media.webspeech.recognition.enable",			false);
 
+pref("media.navigator.enabled",					false);
+
+pref("browser.send_pings",					false)
+pref("browser.send_pings.require_same_host",			true);
+
 // Beacons
 pref("beacon.enabled",						false);
+
+// WebGL
+pref("webgl.disabled",						true);
+pref("webgl.min_capability_mode",				true);
+pref("webgl.disable-extensions",				true);
+pref("webgl.disable-fail-if-major-performance-caveat",		true);
+pref("webgl.enable-debug-renderer-info",			false);
+pref("pdfjs.enableWebGL",					false);
 
 
 
@@ -181,11 +231,17 @@ pref("browser.privatebrowsing.autostart",			false);
 // Offline cache
 pref("browser.cache.offline.enable",				false);
 
+//
+pref("network.http.use-cache",					true);
+
 // Disk cache
 pref("browser.cache.disk.enable",				true);
 
 // Memory cache
 pref("browser.cache.memory.enable",				false);
+
+// 
+pref("browser.cache.disk_cache_ssl",				false);
 
 // Form autofill
 pref("browser.formfill.enable",					false);
@@ -199,6 +255,11 @@ pref("places.history.enabled",					true);
 // Cookie lifetime
 pref("network.cookie.lifetimePolicy",				2);
 
+//
+pref("offline-apps.allow_by_default",				false);
+
+//
+pref("offline-apps.quota.max",					0);
 
 
 /*****************
@@ -213,13 +274,28 @@ pref("device.sensors.enabled",					false);
 
 // Geo location
 pref("geo.enabled",						false);
-pref("geo.wifi.url",						"localhost");
+pref("geo.wifi.url",						"");
+pref("browser.search.geoip.url",				"");
+
+//
+pref("keyword.enabled",						false);
+
+//
+pref("browser.urlbar.trimURLs",					false);
+
+//
+pref("browser.fixup.alternate.enabled",				false);
+
+//
+pref("social.whitelist",					"");
+
+//
+pref("social.remote-install.enabled",				false);
+
+//
+pref("social.toast-notifications.enabled",			false);
 
 
-
-
-pref("browser.send_pings",								false);
-pref("browser.send_pings.require_same_host",			true);
 pref("clipboard.autocopy",								false);
 // disable cookies from 3rd parties
 pref("network.cookie.cookieBehavior",					1);
@@ -229,8 +305,6 @@ pref("security.ssl3.dhe_rsa_aes_128_sha",				false);
 pref("security.ssl3.dhe_rsa_aes_256_sha",				false);
 // enable Do Not Track
 pref("privacy.donottrackheader.enabled",				true);
-// disable WebGL
-pref("webgl.disabled",									true);
 // enable tracking protection
 // https://support.mozilla.org/t5/Protect-your-privacy/Tracking-Protection-in-Firefox/ta-p/18255
 pref("privacy.trackingprotection.enabled",				true);
