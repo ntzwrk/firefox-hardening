@@ -1,17 +1,3 @@
-// Use LANG environment variable to choose locale
-pref("intl.locale.matchOS",								true);
-
-// Disable default browser checking.
-pref("browser.shell.checkDefaultBrowser",				false);
-
-// Don't disable our bundled extensions in the application directory
-pref("extensions.autoDisableScopes",					11);
-pref("extensions.shownSelectionUI",						true);
-
-// Opt all of us into e10s, instead of just 50%
-pref("browser.tabs.remote.autostart",					true);
-
-
 // disable geolocation
 pref("geo.enabled",										false);
 pref("browser.newtabpage.enhanced",						false);
@@ -68,3 +54,8 @@ pref("media.peerconnection.enabled",					false);
 pref("general.useragent.override",						"Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0");
 // set the platform to the same one used by the Tor browser
 pref("general.platform.override",						"Win32");
+// disable RC4 ciphers
+pref("security.ssl3.ecdhe_ecdsa_rc4_128_sha",			false);
+pref("security.ssl3.ecdhe_rsa_rc4_128_sha",				false);
+pref("security.ssl3.rsa_rc4_128_md5",					false);
+pref("security.ssl3.rsa_rc4_128_sha",					false)
