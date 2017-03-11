@@ -87,6 +87,9 @@ pref("security.tls.version.max",				4);
 // TLS version fallback
 pref("security.tls.version.fallback-limit",			3);
 
+// Session tickets
+pref("security.ssl.disable_session_identifiers",		true);
+
 // OCSP
 pref("security.OCSP.enabled",					1);
 
