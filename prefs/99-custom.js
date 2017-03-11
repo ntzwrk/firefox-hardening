@@ -29,13 +29,16 @@ pref("extensions.pocket.enabled",				false);
 // Suggested sites
 pref("browser.newtabpage.enhanced",				false);
 
-// Download SafeBrowsing lists
-pref("browser.safebrowsing.downloads.remote.enabled",		false);
-
 // Safe browsing
-pref("browser.safebrowsing.malware.enabled",			false);
-pref("browser.safebrowsing.phishing.enabled",			false);
-pref("browser.safebrowsing.downloads.enabled",			false);
+pref("browser.safebrowsing.malware.enabled",					false);
+pref("browser.safebrowsing.phishing.enabled",					false);
+pref("browser.safebrowsing.downloads.enabled",					false);
+pref("browser.safebrowsing.downloads.remote.enabled",				false);
+pref("browser.safebrowsing.downloads.remote.block_dangerous",			false);
+pref("browser.safebrowsing.downloads.remote.block_dangerous_host",		false);
+pref("browser.safebrowsing.downloads.remote.block_potentially_unwanted",	false);
+pref("browser.safebrowsing.downloads.remote.block_uncommon",			false);
+pref("browser.safebrowsing.downloads.remote.url",				"");
 
 // Heartbeat
 pref("browser.selfsupport.url",					"");
