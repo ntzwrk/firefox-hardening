@@ -11,6 +11,7 @@ pref("datareporting.healthreport.about.reportUrl",		"");
 // Telemetry
 pref("toolkit.telemetry.enabled",				false);
 pref("toolkit.telemetry.unified",				false);
+pref("toolkit.telemetry.cachedClientID",			"");
 
 //
 pref("toolkit.telemetry.server",				"");
