@@ -286,7 +286,10 @@ pref("device.sensors.enabled",					false);
 // Geo location
 pref("geo.enabled",						false);
 pref("geo.wifi.url",						"");
+pref("geo.wifi.logging.enabled",				false);
+pref("geo.wifi.xhr.timeout",					1); 
 pref("browser.search.geoip.url",				"");
+pref("browser.search.geoip.timeout",				1);
 
 // Copy selected contents to clipboard
 pref("clipboard.autocopy",					false);
