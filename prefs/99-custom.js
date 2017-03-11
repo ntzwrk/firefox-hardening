@@ -291,6 +291,9 @@ pref("browser.search.geoip.url",				"");
 // Copy selected contents to clipboard
 pref("clipboard.autocopy",					false);
 
+// Keyboard events
+pref("dom.keyboardevent.code.enabled",				false);
+
 //
 pref("keyword.enabled",						false);
 
