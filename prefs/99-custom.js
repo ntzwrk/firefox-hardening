@@ -242,6 +242,7 @@ pref("pdfjs.enableWebGL",					false);
 
 // Clean on shutdown
 pref("privacy.sanitize.sanitizeOnShutdown",			true);
+pref("privacy.sanitize.timeSpan",				0);
 
 // Clean areas
 pref("privacy.clearOnShutdown.cache",				false);
