@@ -355,8 +355,6 @@ pref("privacy.donottrackheader.enabled",				true);
 pref("privacy.trackingprotection.enabled",				true);
 // disable DNS prefetch
 pref("network.dns.disablePrefetch",						true);
-// do not remember visited links
-pref("layout.css.visited_links_enabled",				false);
 // try resolving DNS over SOCKS proxies (needed for Tor)
 pref("network.proxy.socks_remote_dns",					true);
 // disable search suggestions
