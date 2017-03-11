@@ -79,6 +79,7 @@ pref("extensions.update.enabled",				true);
 
 // Extension block list
 pref("extensions.blocklist.enabled",				true);
+pref("extensions.blocklist.url",				"https://blocklist.addons.mozilla.org/blocklist/3/%APP_ID%/%APP_VERSION%/");
 
 // Extension metadata update
 pref("extensions.getAddons.cache.enabled",			false);
