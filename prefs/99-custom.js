@@ -40,6 +40,23 @@ pref("browser.safebrowsing.downloads.remote.block_potentially_unwanted",	false);
 pref("browser.safebrowsing.downloads.remote.block_uncommon",			false);
 pref("browser.safebrowsing.downloads.remote.url",				"");
 
+// Google SafeBrowsing update URLs
+pref("browser.safebrowsing.provider.google.updateURL",				"");
+pref("browser.safebrowsing.provider.google.gethashURL",				"");
+pref("browser.safebrowsing.provider.google4.updateURL",				"");
+pref("browser.safebrowsing.provider.google4.gethashURL",			"");
+
+// Mozilla SafeBrowsing update URLs
+pref("browser.safebrowsing.provider.mozilla.updateURL",				"");
+pref("browser.safebrowsing.provider.mozilla.gethashURL",			"");
+
+// SafeBrowsing reporting URLs
+pref("browser.safebrowsing.provider.google.reportURL",				"");
+pref("browser.safebrowsing.provider.google4.reportURL",				"");
+pref("browser.safebrowsing.reportMalwareMistakeURL",				"");
+pref("browser.safebrowsing.reportPhishMistakeURL",				"");
+pref("browser.safebrowsing.reportPhishURL",					"");
+
 // Heartbeat
 pref("browser.selfsupport.url",					"");
 
