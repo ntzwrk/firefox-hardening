@@ -288,6 +288,9 @@ pref("geo.enabled",						false);
 pref("geo.wifi.url",						"");
 pref("browser.search.geoip.url",				"");
 
+// Copy selected contents to clipboard
+pref("clipboard.autocopy",					false);
+
 //
 pref("keyword.enabled",						false);
 
