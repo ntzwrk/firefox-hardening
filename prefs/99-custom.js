@@ -268,6 +268,10 @@ pref("offline-apps.allow_by_default",				false);
 //
 pref("offline-apps.quota.max",					0);
 
+// Visited links
+pref("layout.css.visited_links_enabled",			false);
+
+
 
 /*****************
  * Miscellaneous *
