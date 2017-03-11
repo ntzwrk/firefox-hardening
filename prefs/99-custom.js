@@ -16,7 +16,7 @@ pref("browser.tabs.crashReporting.sendReport",			false);
 pref("browser.tabs.crashReporting.requestEmail",		false);
 pref("browser.tabs.crashReporting.includeURL",			false);
 pref("browser.tabs.crashReporting.emailMe",			false);
-pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled,	false);
+pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled",	false);
 pref("dom.ipc.plugins.reportCrashURL",				false);
 
 // Telemetry
