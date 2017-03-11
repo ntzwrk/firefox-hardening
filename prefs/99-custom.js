@@ -5,15 +5,13 @@
 // Health reports
 pref("datareporting.healthreport.uploadEnabled",		false);
 pref("datareporting.healthreport.service.enabled",		false);
-pref("datareporting.policy.dataSubmissionEnabled",		false);
 pref("datareporting.healthreport.about.reportUrl",		"");
+pref("datareporting.policy.dataSubmissionEnabled",		false);
 
 // Telemetry
 pref("toolkit.telemetry.enabled",				false);
 pref("toolkit.telemetry.unified",				false);
 pref("toolkit.telemetry.cachedClientID",			"");
-
-//
 pref("toolkit.telemetry.server",				"");
 
 // Telemetry experiments
@@ -123,11 +121,7 @@ pref("security.cert_pinning.enforcement_level",			2);
 
 // SSL error reporting
 pref("security.ssl.errorReporting.enabled",			false);
-
-//
 pref("security.ssl.errorReporting.automatic",			false);
-
-//
 pref("security.ssl.errorReporting.url",				"");
 
 
