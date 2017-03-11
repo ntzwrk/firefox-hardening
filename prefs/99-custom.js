@@ -15,11 +15,11 @@ pref("toolkit.telemetry.cachedClientID",			"");
 pref("toolkit.telemetry.server",				"");
 
 // Telemetry experiments
-pref("experiments.supported",					false);
 pref("experiments.enabled",					false);
-
-//
+pref("experiments.activeExperiment",				false);
+pref("experiments.supported",					false);
 pref("experiments.manifest.uri",				"");
+pref("network.allow-experiments",				false);
 
 // Pocket
 pref("extensions.pocket.enabled",				false);
