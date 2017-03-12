@@ -73,6 +73,7 @@ pref("browser.safebrowsing.reportPhishMistakeURL",		"");
 pref("browser.safebrowsing.reportPhishURL",			"");
 
 // Heartbeat
+pref("browser.selfsupport.enabled",				false);
 pref("browser.selfsupport.url",					"");
 
 // WebIDE
