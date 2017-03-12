@@ -148,15 +148,6 @@ pref("security.ssl.errorReporting.url",				"");
  * Ciphers *
  ***********/
 
-// RC4
-// Not existing anymore, will remove it in next commits
-pref("security.ssl3.rsa_rc4_128_md5",				false);
-pref("security.ssl3.rsa_rc4_128_sha",				false);
-pref("security.ssl3.ecdh_ecdsa_rc4_128_sha",			false);
-pref("security.ssl3.ecdh_rsa_rc4_128_sha",			false);
-pref("security.ssl3.ecdhe_ecdsa_rc4_128_sha",			false);
-pref("security.ssl3.ecdhe_rsa_rc4_128_sha",			false);
-
 // disable 1024-bit dh primes
 pref("security.ssl3.dhe_rsa_aes_128_sha",			false);
 pref("security.ssl3.dhe_rsa_aes_256_sha",			false);
