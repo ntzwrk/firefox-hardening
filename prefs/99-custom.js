@@ -336,7 +336,7 @@ pref("device.sensors.enabled",					false);
 
 // Geo location
 pref("geo.enabled",						false);
-pref("geo.wifi.url",						"");
+pref("geo.wifi.uri",						"");
 pref("geo.wifi.logging.enabled",				false);	// Hidden option
 pref("geo.wifi.xhr.timeout",					1); 
 pref("browser.search.geoip.url",				"");
