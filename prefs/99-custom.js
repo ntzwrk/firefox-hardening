@@ -278,6 +278,7 @@ pref("privacy.cpd.offlineApps",					false);
 pref("privacy.cpd.passwords",					false);
 pref("privacy.cpd.sessions",					false);
 pref("privacy.cpd.siteSettings",				false);
+pref("privacy.cpd.openWindows",					false);
 
 // Private browsing mode
 pref("browser.privatebrowsing.autostart",			false);
