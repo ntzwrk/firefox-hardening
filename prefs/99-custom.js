@@ -4,7 +4,6 @@
 
 // Health reports
 pref("datareporting.healthreport.uploadEnabled",		false);
-pref("datareporting.healthreport.service.enabled",		false);
 pref("datareporting.healthreport.about.reportUrl",		"");
 pref("datareporting.policy.dataSubmissionEnabled",		false);
 
