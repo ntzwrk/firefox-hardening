@@ -303,9 +303,6 @@ pref("network.cookie.lifetimePolicy",				2);
 //
 pref("offline-apps.allow_by_default",				false);
 
-// Not existing anymore, will remove it in next commits
-pref("offline-apps.quota.max",					0);
-
 // Visited links
 pref("layout.css.visited_links_enabled",			false);
 
