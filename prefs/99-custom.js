@@ -354,6 +354,12 @@ pref("browser.urlbar.trimURLs",					false);
 //
 pref("browser.fixup.alternate.enabled",				false);
 
+//
+pref("browser.tabs.closeWindowWithLastTab",			false);
+
+//
+pref("browser.ctrlTab.previews",				true);
+
 // Social
 pref("social.remote-install.enabled",				false);
 pref("social.share.activationPanelEnabled",			false);
