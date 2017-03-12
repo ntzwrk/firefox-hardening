@@ -37,6 +37,9 @@ pref("extensions.pocket.enabled",				false);
 
 // Suggested sites
 pref("browser.newtabpage.enhanced",				false);
+pref("browser.newtabpage.introShown",				true);
+pref("browser.newtabpage.directory.ping",			"");
+pref("browser.newtabpage.directory.source",			"");
 
 // Safe browsing
 pref("browser.safebrowsing.malware.enabled",					false);
