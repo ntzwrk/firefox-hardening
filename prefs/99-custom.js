@@ -276,9 +276,6 @@ pref("browser.privatebrowsing.autostart",			false);
 // Offline cache
 pref("browser.cache.offline.enable",				false);
 
-// Not existing anymore, will remove it in nexts commits
-pref("network.http.use-cache",					true);
-
 // Disk cache
 pref("browser.cache.disk.enable",				true);
 
