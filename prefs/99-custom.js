@@ -50,21 +50,21 @@ pref("browser.safebrowsing.downloads.remote.block_uncommon",			false);
 pref("browser.safebrowsing.downloads.remote.url",				"");
 
 // Google SafeBrowsing update URLs
-pref("browser.safebrowsing.provider.google.updateURL",				"");
-pref("browser.safebrowsing.provider.google.gethashURL",				"");
-pref("browser.safebrowsing.provider.google4.updateURL",				"");
-pref("browser.safebrowsing.provider.google4.gethashURL",			"");
+pref("browser.safebrowsing.provider.google.updateURL",		"");
+pref("browser.safebrowsing.provider.google.gethashURL",		"");
+pref("browser.safebrowsing.provider.google4.updateURL",		"");
+pref("browser.safebrowsing.provider.google4.gethashURL",	"");
 
 // Mozilla SafeBrowsing update URLs
-pref("browser.safebrowsing.provider.mozilla.updateURL",				"");
-pref("browser.safebrowsing.provider.mozilla.gethashURL",			"");
+pref("browser.safebrowsing.provider.mozilla.updateURL",		"");
+pref("browser.safebrowsing.provider.mozilla.gethashURL",	"");
 
 // SafeBrowsing reporting URLs
-pref("browser.safebrowsing.provider.google.reportURL",				"");
-pref("browser.safebrowsing.provider.google4.reportURL",				"");
-pref("browser.safebrowsing.reportMalwareMistakeURL",				"");
-pref("browser.safebrowsing.reportPhishMistakeURL",				"");
-pref("browser.safebrowsing.reportPhishURL",					"");
+pref("browser.safebrowsing.provider.google.reportURL",		"");
+pref("browser.safebrowsing.provider.google4.reportURL",		"");
+pref("browser.safebrowsing.reportMalwareMistakeURL",		"");
+pref("browser.safebrowsing.reportPhishMistakeURL",		"");
+pref("browser.safebrowsing.reportPhishURL",			"");
 
 // Heartbeat
 pref("browser.selfsupport.url",					"");
@@ -150,8 +150,8 @@ pref("security.ssl3.ecdhe_ecdsa_rc4_128_sha",			false);
 pref("security.ssl3.ecdhe_rsa_rc4_128_sha",			false);
 
 // disable 1024-bit dh primes
-pref("security.ssl3.dhe_rsa_aes_128_sha",				false);
-pref("security.ssl3.dhe_rsa_aes_256_sha",				false);
+pref("security.ssl3.dhe_rsa_aes_128_sha",			false);
+pref("security.ssl3.dhe_rsa_aes_256_sha",			false);
 
 // RC4 fallback
 pref("security.tls.unrestricted_rc4_fallback",			false);
@@ -344,7 +344,6 @@ pref("social.remote-install.enabled",				false);
 pref("social.toast-notifications.enabled",			false);
 
 
-pref("clipboard.autocopy",								false);
 // disable cookies from 3rd parties
 pref("network.cookie.cookieBehavior",					1);
 pref("signon.rememberSignons",							false);
