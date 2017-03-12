@@ -34,6 +34,9 @@ pref("network.allow-experiments",				false);
 
 // Pocket
 pref("extensions.pocket.enabled",				false);
+pref("extensions.pocket.api",					"");
+pref("extensions.pocket.oAuthConsumerKey",			"");
+pref("extensions.pocket.site",					"");
 
 // Suggested sites
 pref("browser.newtabpage.enhanced",				false);
