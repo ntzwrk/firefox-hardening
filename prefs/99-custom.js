@@ -188,10 +188,6 @@ pref("dom.enable_performance",					false);
 // User timing
 pref("dom.enable_user_timing",					false);
 
-// Telephony
-// Not existing anymore, will remove it in next commits
-pref("dom.telephony.enabled",					false);
-
 // Raw TCP socket
 pref("dom.mozTCPSocket.enabled",				false);	// Hidden option
 
