@@ -341,14 +341,14 @@ pref("browser.urlbar.trimURLs",					false);
 //
 pref("browser.fixup.alternate.enabled",				false);
 
-//
-pref("social.whitelist",					"");
-
-//
+// Social
 pref("social.remote-install.enabled",				false);
-
-//
+pref("social.share.activationPanelEnabled",			false);
 pref("social.toast-notifications.enabled",			false);
+pref("social.shareDirectory",					"");
+pref("social.whitelist",					"");
+pref("social.directories",					"");
+pref("social.sidebar.unload_timeout_ms",			1);
 
 
 // disable cookies from 3rd parties
