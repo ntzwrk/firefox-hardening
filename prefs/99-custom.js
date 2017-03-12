@@ -5,6 +5,7 @@
 // Health reports
 pref("datareporting.healthreport.uploadEnabled",		false);
 pref("datareporting.healthreport.about.reportUrl",		"");
+pref("datareporting.healthreport.documentServerURI",		"");
 pref("datareporting.policy.dataSubmissionEnabled",		false);
 
 // Crash reports
