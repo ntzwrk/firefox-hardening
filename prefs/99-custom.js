@@ -5,7 +5,7 @@
 // Health reports
 pref("datareporting.healthreport.uploadEnabled",		false);
 pref("datareporting.healthreport.about.reportUrl",		"");
-pref("datareporting.healthreport.documentServerURI",		"");
+pref("datareporting.healthreport.documentServerURI",		"");	// Hidden option
 pref("datareporting.policy.dataSubmissionEnabled",		false);
 
 // Crash reports
@@ -34,9 +34,9 @@ pref("network.allow-experiments",				false);
 
 // Pocket
 pref("extensions.pocket.enabled",				false);
-pref("extensions.pocket.api",					"");
-pref("extensions.pocket.oAuthConsumerKey",			"");
-pref("extensions.pocket.site",					"");
+pref("extensions.pocket.api",					"");	// Hidden option
+pref("extensions.pocket.oAuthConsumerKey",			"");	// Hidden option
+pref("extensions.pocket.site",					"");	// Hidden option
 
 // Suggested sites
 pref("browser.newtabpage.enhanced",				false);
@@ -73,7 +73,7 @@ pref("browser.safebrowsing.reportPhishMistakeURL",		"");
 pref("browser.safebrowsing.reportPhishURL",			"");
 
 // Heartbeat
-pref("browser.selfsupport.enabled",				false);
+pref("browser.selfsupport.enabled",				false);	// Hidden option
 pref("browser.selfsupport.url",					"");
 
 // WebIDE
@@ -110,7 +110,7 @@ pref("plugin.state.flash",					0);
 pref("plugin.state.java",					0);
 
 // Gnome Shell integration
-pref("plugin.state.libgnome-shell-browser-plugin",		0);
+pref("plugin.state.libgnome-shell-browser-plugin",		0);	// Not found, probably only available if using Gnome Shell
 
 
 
@@ -126,7 +126,7 @@ pref("security.tls.version.max",				4);
 pref("security.tls.version.fallback-limit",			3);
 
 // Session tickets
-pref("security.ssl.disable_session_identifiers",		true);
+pref("security.ssl.disable_session_identifiers",		true);	// Hidden option
 
 // OCSP
 pref("security.OCSP.enabled",					1);
@@ -149,6 +149,7 @@ pref("security.ssl.errorReporting.url",				"");
  ***********/
 
 // RC4
+// Not existing anymore, will remove it in next commits
 pref("security.ssl3.rsa_rc4_128_md5",				false);
 pref("security.ssl3.rsa_rc4_128_sha",				false);
 pref("security.ssl3.ecdh_ecdsa_rc4_128_sha",			false);
@@ -197,10 +198,11 @@ pref("dom.enable_performance",					false);
 pref("dom.enable_user_timing",					false);
 
 // Telephony
+// Not existing anymore, will remove it in next commits
 pref("dom.telephony.enabled",					false);
 
 // Raw TCP socket
-pref("dom.mozTCPSocket.enabled",				false);
+pref("dom.mozTCPSocket.enabled",				false);	// Hidden option
 
 // WebRTC
 pref("media.peerconnection.enabled",				false);
@@ -233,6 +235,7 @@ pref("media.webspeech.recognition.enable",			false);
 pref("media.navigator.enabled",					false);
 
 pref("browser.send_pings",					false)
+// Here will stand an option
 pref("browser.send_pings.require_same_host",			true);
 
 // Beacons
@@ -286,7 +289,7 @@ pref("browser.privatebrowsing.autostart",			false);
 // Offline cache
 pref("browser.cache.offline.enable",				false);
 
-//
+// Not existing anymore, will remove it in nexts commits
 pref("network.http.use-cache",					true);
 
 // Disk cache
@@ -313,7 +316,7 @@ pref("network.cookie.lifetimePolicy",				2);
 //
 pref("offline-apps.allow_by_default",				false);
 
-//
+// Not existing anymore, will remove it in next commits
 pref("offline-apps.quota.max",					0);
 
 // Visited links
@@ -334,7 +337,7 @@ pref("device.sensors.enabled",					false);
 // Geo location
 pref("geo.enabled",						false);
 pref("geo.wifi.url",						"");
-pref("geo.wifi.logging.enabled",				false);
+pref("geo.wifi.logging.enabled",				false);	// Hidden option
 pref("geo.wifi.xhr.timeout",					1); 
 pref("browser.search.geoip.url",				"");
 pref("browser.search.geoip.timeout",				1);
