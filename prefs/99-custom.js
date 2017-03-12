@@ -256,7 +256,7 @@ pref("pdfjs.enableWebGL",					false);
 pref("privacy.sanitize.sanitizeOnShutdown",			true);
 pref("privacy.sanitize.timeSpan",				0);
 
-// Clean areas
+// Clean categories on shutdown
 pref("privacy.clearOnShutdown.cache",				false);
 pref("privacy.clearOnShutdown.cookies",				true);
 pref("privacy.clearOnShutdown.downloads",			false);
@@ -266,6 +266,18 @@ pref("privacy.clearOnShutdown.offlineApps",			false);
 pref("privacy.clearOnShutdown.passwords",			false);
 pref("privacy.clearOnShutdown.sessions",			false);
 pref("privacy.clearOnShutdown.siteSettings",			false);
+pref("privacy.clearOnShutdown.openWindows",			false);
+
+// Manual clean
+pref("privacy.cpd.cache",					true);
+pref("privacy.cpd.cookies",					true);
+pref("privacy.cpd.downloads",					false);
+pref("privacy.cpd.formdata",					false);
+pref("privacy.cpd.history",					false);
+pref("privacy.cpd.offlineApps",					false);
+pref("privacy.cpd.passwords",					false);
+pref("privacy.cpd.sessions",					false);
+pref("privacy.cpd.siteSettings",				false);
 
 // Private browsing mode
 pref("browser.privatebrowsing.autostart",			false);
