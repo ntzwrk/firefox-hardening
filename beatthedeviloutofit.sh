@@ -22,14 +22,14 @@ if [ -d ${FF_DIR} ]; then
 	echo "//" > ${FF_DIR}/custom.cfg
 
 	for CONFIG in ${ENABLED_FFH_CONFIGS}; do
-		if [ -f ${FFH_DIR}/prefs/${CONFIG} ]; then
-			cat ${FFH_DIR}/prefs/${CONFIG} >> ${FF_DIR}/custom.cfg
+		if [ -f ${FFH_DIR}/prefs/${CONFIG}.js ]; then
+			cat ${FFH_DIR}/prefs/${CONFIG}.js >> ${FF_DIR}/custom.cfg
 		fi
 	done
 
 	for CONFIG in ${ENABLED_OWN_CONFIGS}; do
-		if [ -f ${FFH_CONFIG_DIR}/prefs/${CONFIG} ]; then
-			cat ${FFH_CONFIG_DIR}/prefs/${CONFIG} >> ${FF_DIR}/custom.cfg
+		if [ -f ${FFH_CONFIG_DIR}/prefs/${CONFIG}.js ]; then
+			cat ${FFH_CONFIG_DIR}/prefs/${CONFIG}.js >> ${FF_DIR}/custom.cfg
 		fi
 	done
 
