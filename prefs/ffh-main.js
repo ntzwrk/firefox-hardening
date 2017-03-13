@@ -161,6 +161,10 @@ defaultPref("security.tls.unrestricted_rc4_fallback",		false);
  * HTML5 / DOM *
  ***************/
 
+// Service Workers
+defaultPref("dom.serviceWorkers.enabled",			false);
+defaultPref("dom.webnotifications.serviceworker.enabled",	false);
+
 //
 defaultPref("dom.indexedDB.enabled",		true);
 
@@ -220,6 +224,7 @@ defaultPref("media.webspeech.synth.enabled",						false);
 defaultPref("media.webspeech.recognition.enable",			false);
 
 defaultPref("media.navigator.enabled",						false);
+defaultPref("media.navigator.video.enabled",				false);
 
 defaultPref("browser.send_pings",							false)
 // Here will stand an option
