@@ -355,6 +355,9 @@ defaultPref("dom.event.contextmenu.enabled",		false);
 //
 defaultPref("browser.ctrlTab.previews",				true);
 
+//
+defaultPref("security.insecure_password.ui.enabled",		true);
+
 // Social
 defaultPref("social.remote-install.enabled",		false);
 defaultPref("social.share.activationPanelEnabled",	false);
