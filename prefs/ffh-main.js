@@ -322,6 +322,9 @@ defaultPref("geo.wifi.logging.enabled",			false);	// Hidden option
 defaultPref("geo.wifi.xhr.timeout",				1);
 defaultPref("browser.search.geoip.url",			"");
 defaultPref("browser.search.geoip.timeout",		1);
+defaultPref("browser.search.geoSpecificDefaults",	false);
+defaultPref("browser.search.geoSpecificDefaults.url",	"");
+
 
 // Copy selected contents to clipboard
 defaultPref("clipboard.autocopy",					false);
