@@ -162,7 +162,7 @@ defaultPref("security.tls.unrestricted_rc4_fallback",		false);
  ***************/
 
 //
-defaultPref("dom.indexedDB.enabled",		false);
+defaultPref("dom.indexedDB.enabled",		true);
 
 // Gamepad
 defaultPref("dom.gamepad.enabled",			false);
