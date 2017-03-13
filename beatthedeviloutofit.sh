@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-FFH_DIR = "/usr/lib/firefox-hardening"
-FFH_CONFIG_DIR = "/etc/firefox-hardening"
+FFH_DIR="/usr/lib/firefox-hardening"
+FFH_CONFIG_DIR="/etc/firefox-hardening"
 
-FF_DIR = "/usr/lib/firefox"
-FF_SYS_ADDONS_DIR = "${FF_DIR}/browser/features"
+FF_DIR="/usr/lib/firefox"
+FF_SYS_ADDONS_DIR="${FF_DIR}/browser/features"
 
 if [ -f ${FFH_CONFIG_DIR}/ffh.conf ]; then
 	source ${FFH_CONFIG_DIR}/ffh.conf
