@@ -350,6 +350,9 @@ defaultPref("browser.fixup.alternate.enabled",		false);
 defaultPref("browser.tabs.closeWindowWithLastTab",	false);
 
 //
+defaultPref("dom.event.contextmenu.enabled",		false);
+
+//
 defaultPref("browser.ctrlTab.previews",				true);
 
 // Social
