@@ -35,5 +35,5 @@ if [ -d ${FF_DIR} ]; then
 
 	chmod 644 ${FF_DIR}/custom.cfg
 
-	ln -sf ${FFH_DIR}/prefs/autoconfig.js ${FF_DIR}/defaults/prefs/autoconfig.js
+	ln -sf ${FFH_DIR}/prefs/autoconfig.js ${FF_DIR}/defaults/pref/autoconfig.js
 fi
