@@ -358,6 +358,9 @@ defaultPref("browser.ctrlTab.previews",				true);
 //
 defaultPref("security.insecure_password.ui.enabled",		true);
 
+//
+defaultPref("general.buildID.override",			"20100101");
+
 // Social
 defaultPref("social.remote-install.enabled",		false);
 defaultPref("social.share.activationPanelEnabled",	false);
