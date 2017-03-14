@@ -364,6 +364,9 @@ defaultPref("general.buildID.override",			"20100101");
 //
 defaultPref("browser.display.use_document_fonts",		0);
 
+//
+default("privacy.resistFingerprinting",			true);
+
 // Social
 defaultPref("social.remote-install.enabled",		false);
 defaultPref("social.share.activationPanelEnabled",	false);
