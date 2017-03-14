@@ -361,6 +361,9 @@ defaultPref("security.insecure_password.ui.enabled",		true);
 //
 defaultPref("general.buildID.override",			"20100101");
 
+//
+defaultPref("browser.display.use_document_fonts",		0);
+
 // Social
 defaultPref("social.remote-install.enabled",		false);
 defaultPref("social.share.activationPanelEnabled",	false);
