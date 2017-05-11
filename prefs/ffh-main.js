@@ -95,6 +95,7 @@ defaultPref("extensions.update.enabled",		true);
 
 // Extension block list
 defaultPref("extensions.blocklist.enabled",		true);
+defaultPref("services.blocklist.update_enabled",	true);
 defaultPref("extensions.blocklist.url",			"https://blocklist.addons.mozilla.org/blocklist/3/%APP_ID%/%APP_VERSION%/");
 
 // Extension metadata update
@@ -162,8 +163,13 @@ defaultPref("security.tls.unrestricted_rc4_fallback",		false);
  ***************/
 
 // Service Workers
+defaultPref("dom.workers.enabled",				false);
 defaultPref("dom.serviceWorkers.enabled",			false);
 defaultPref("dom.webnotifications.serviceworker.enabled",	false);
+
+defaultPref("dom.webnotifications.enabled",			false);
+
+defaultPref("dom.webaudio.enabled",		false);
 
 //
 defaultPref("dom.indexedDB.enabled",		true);
@@ -249,7 +255,7 @@ defaultPref("pdfjs.enableWebGL",					false);
 
 // Clean on shutdown
 defaultPref("privacy.sanitize.sanitizeOnShutdown",		true);
-defaultPref("privacy.sanitize.timeSpan",				0);
+defaultPref("privacy.sanitize.timeSpan",			0);
 
 // Clean categories on shutdown
 defaultPref("privacy.clearOnShutdown.cache",			false);
@@ -314,6 +320,31 @@ defaultPref("layout.css.visited_links_enabled",		false);
  * Miscellaneous *
  *****************/
 
+// disable DNS defaultPrefetch
+defaultPref("network.dns.disablePrefetch",		true);
+
+// disable cookies from 3rd parties
+defaultPref("network.cookie.cookieBehavior",		1);
+
+//
+defaultPref("dom.flyweb.enabled",			false);
+
+//
+defaultPref("browser.uitour.enabled",			false);
+
+//
+defaultPref("privacy.donottrackheader.enabled",		false);
+
+//
+defaultPref("privacy.trackingprotection.enabled",	false);
+defaultPref("privacy.trackingprotection.pbmode.enabled",	false);
+
+//
+defaultPref("browser.casting.enabled",			false);
+
+//
+defaultPref("privacy.userContext.enabled",		false);
+
 // Face detection
 defaultPref("camera.control.face_detection.enabled",	false);
 
@@ -329,7 +360,6 @@ defaultPref("browser.search.geoip.url",			"");
 defaultPref("browser.search.geoip.timeout",		1);
 defaultPref("browser.search.geoSpecificDefaults",	false);
 defaultPref("browser.search.geoSpecificDefaults.url",	"");
-
 
 // Copy selected contents to clipboard
 defaultPref("clipboard.autocopy",			false);
@@ -377,16 +407,7 @@ defaultPref("social.directories",			"");
 defaultPref("social.sidebar.unload_timeout_ms",		1);
 
 
-// disable cookies from 3rd parties
-defaultPref("network.cookie.cookieBehavior",			1);
 defaultPref("signon.rememberSignons",				false);
-// enable Do Not Track
-defaultPref("privacy.donottrackheader.enabled",			true);
-// enable tracking protection
-// https://support.mozilla.org/t5/Protect-your-privacy/Tracking-Protection-in-Firefox/ta-p/18255
-defaultPref("privacy.trackingprotection.enabled",		true);
-// disable DNS defaultPrefetch
-defaultPref("network.dns.disablePrefetch",			true);
 // try resolving DNS over SOCKS proxies (needed for Tor)
 defaultPref("network.proxy.socks_remote_dns",			true);
 // disable search suggestions
