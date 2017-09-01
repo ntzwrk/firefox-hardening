@@ -414,7 +414,4 @@ defaultPref("network.proxy.socks_remote_dns",			true);
 defaultPref("browser.search.suggest.enabled",			false);
 // do not embed the `missing flash player` frame
 defaultPref("plugins.notifyMissingFlash",			false);
-// set the useragent to the same one used by the Tor browser
-defaultPref("general.useragent.override",			"Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0");
-// set the platform to the same one used by the Tor browser
-defaultPref("general.platform.override",			"Win32");
+
