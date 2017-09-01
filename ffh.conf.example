@@ -1,4 +1,4 @@
-REMOVE_SYS_ADDONS="aushelper@mozilla.org.xpi firefox@getpocket.com.xpi webcompat@mozilla.org.xpi followonsearch@mozilla.com.xpi"
+REMOVE_SYS_ADDONS="aushelper@mozilla.org.xpi firefox@getpocket.com.xpi webcompat@mozilla.org.xpi followonsearch@mozilla.com.xpi screenshots@mozilla.org.xpi shield-recipe-client@mozilla.org.xpi"
 
 ENABLED_FFH_CONFIGS="ffh-main"
 ENABLED_OWN_CONFIGS=""
